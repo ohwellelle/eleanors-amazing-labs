@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://d3g51c5rufofy"]
+
+[ext_resource type="Texture2D" uid="uid://btk4fkqxh6iml" path="res://johnscared.png" id="1_7tgbw"]
+[ext_resource type="Texture2D" uid="uid://dy5xqn52r40tk" path="res://Layer 2.png" id="2_yyjo4"]
+[ext_resource type="PackedScene" uid="uid://d11q7d2f6h3g8" path="res://waterspray.tscn" id="3_ud6jy"]
+
+[node name="Node2D" type="Node2D" unique_id=1090024949]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=685521900]
+position = Vector2(311, 327)
+texture = ExtResource("1_7tgbw")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D" unique_id=442043206]
+position = Vector2(383, -566)
+texture = ExtResource("2_yyjo4")
+
+[node name="water spray" parent="Sprite2D" unique_id=1244423995 instance=ExtResource("3_ud6jy")]
+offset_left = -609.0
+offset_top = 26.0
+offset_right = -551.0
+offset_bottom = 61.0

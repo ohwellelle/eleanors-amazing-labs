@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://b1g2g51yu84y5"]
+
+[node name="water spray" type="ColorRect" unique_id=1244423995]
+offset_left = -16.0
+offset_top = -12.0
+offset_right = 42.0
+offset_bottom = 23.0
+color = Color(0.3137255, 0.43529412, 1, 1)
+
+[node name="showerhead" type="ColorRect" parent="." unique_id=400952375]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 11.0
+offset_right = 24.0
+offset_bottom = 75.0
