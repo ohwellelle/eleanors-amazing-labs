@@ -15,7 +15,13 @@ position = Vector2(383, -566)
 texture = ExtResource("2_ppyta")
 
 [node name="water spray" parent="." unique_id=1244423995 instance=ExtResource("3_ykrsh")]
-offset_left = 209.0
-offset_top = 94.0
-offset_right = 267.0
-offset_bottom = 129.0
+offset_left = 592.0
+offset_top = 306.0
+offset_right = 650.0
+offset_bottom = 341.0
+
+[node name="water spray2" parent="." unique_id=43077539 instance=ExtResource("3_ykrsh")]
+offset_left = 223.0
+offset_top = 85.0
+offset_right = 281.0
+offset_bottom = 120.0
