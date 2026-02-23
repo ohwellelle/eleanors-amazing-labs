@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://dqdy82032lbx"]
+
+[ext_resource type="Script" uid="uid://tle46uvfeicd" path="res://Scripts/pencil.gd" id="1_rhdxk"]
+[ext_resource type="Texture2D" uid="uid://dl558seyngbra" path="res://Assets/pencil.jpg" id="1_u0ysf"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_u0ysf"]
+size = Vector2(838.5, 963)
+
+[node name="pencil" type="Node2D" unique_id=166370714]
+
+[node name="pencil" type="CharacterBody2D" parent="." unique_id=1752451401]
+script = ExtResource("1_rhdxk")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="pencil" unique_id=100737107]
+position = Vector2(1593.75, -414.5)
+shape = SubResource("RectangleShape2D_u0ysf")
+
+[node name="pencil" type="Sprite2D" parent="pencil" unique_id=2008763118]
+position = Vector2(1593, -419.4137)
+scale = Vector2(0.32021198, 0.32021198)
+texture = ExtResource("1_u0ysf")

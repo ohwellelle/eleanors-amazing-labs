@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dht8bobcyksng"]
+
+[ext_resource type="PackedScene" uid="uid://cq7l55dta7wf8" path="res://Scenes/player.tscn" id="1_ebmjs"]
+[ext_resource type="PackedScene" uid="uid://dqdy82032lbx" path="res://Scenes/pencil.tscn" id="2_qxrlw"]
+
+[node name="Game" type="Node2D" unique_id=71367843]
+
+[node name="pencil" parent="." unique_id=166370714 instance=ExtResource("2_qxrlw")]
+
+[node name="player" parent="." unique_id=310658885 instance=ExtResource("1_ebmjs")]
+
+[node name="Camera2D" type="Camera2D" parent="player" unique_id=1378885827]
+zoom = Vector2(0.255, 0.255)

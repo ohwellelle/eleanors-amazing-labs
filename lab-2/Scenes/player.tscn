@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://cq7l55dta7wf8"]
+
+[ext_resource type="Script" uid="uid://cq0red47i8di4" path="res://Scripts/character_body_2d.gd" id="1_cvnsp"]
+[ext_resource type="Texture2D" uid="uid://dlg1kjp7m7ad8" path="res://Assets/AdobeStock_1585103117.png" id="1_v0iea"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_cvnsp"]
+radius = 546.1493
+
+[node name="player" type="Node2D" unique_id=310658885]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1569576824]
+position = Vector2(77.00001, -164)
+scale = Vector2(0.5100447, 0.51004463)
+script = ExtResource("1_cvnsp")
+max_speed = 700
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=1019193693]
+position = Vector2(-164.13145, 321.54044)
+scale = Vector2(1.0000001, 1)
+shape = SubResource("CircleShape2D_cvnsp")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D" unique_id=1567834052]
+position = Vector2(-191.57997, 254.87962)
+scale = Vector2(0.405, 0.405)
+texture = ExtResource("1_v0iea")
